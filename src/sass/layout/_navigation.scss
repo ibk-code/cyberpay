@@ -1,0 +1,53 @@
+.navigation {
+  // padding-left: 4rem !important;
+  // padding-right: 4rem !important;
+  // padding-top: 1.5rem !important;
+  .navbar-brand {
+    span {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
+  #navigation {
+    & > ul {
+      & > li:not(:last-child) {
+        margin-right: 2.5rem;
+      }
+      li {
+        a {
+          color: $primary-white !important;
+          font-size: 0.875rem;
+          font-family: 'Manrope';
+        }
+
+        .reg-wrap {
+          display: flex;
+          height: 100%;
+          align-items: center;
+          grid-column-gap: 20px;
+
+          .signup-btn {
+            border: 1px solid $primary-white;
+            border-radius: 5px;
+            padding: 0.5rem 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-toggler {
+    background-color: $primary-blue !important;
+    color: $primary-white !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navigation {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

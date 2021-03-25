@@ -1,0 +1,49 @@
+.subscribe-main {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.subscribe-img {
+  height: 200px;
+}
+
+.product-desc {
+  margin-top: 2rem;
+  &--heading {
+    font-size: 1.5rem;
+    color: $primary-white;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 5px solid $primary-blue;
+  }
+}
+
+.service-info {
+  &--heading {
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+    display: block;
+    color: $primary-white;
+  }
+
+  &--product {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    display: block;
+    color: $primary-white;
+  }
+}
+
+form {
+  input {
+    &::placeholder {
+      color: #252b33 !important;
+    }
+  }
+}
+
+@media screen and(max-width: 600px) {
+  .service-info {
+    margin-top: 3rem;
+  }
+}

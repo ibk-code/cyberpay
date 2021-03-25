@@ -1,0 +1,25 @@
+.skip {
+  &:link {
+    position: fixed;
+    left: 3rem;
+    color: $primary-white !important;
+    transition: 0.3s ease-in;
+    z-index: 2050;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: $primary-blue;
+    text-decoration: none !important;
+    top: -12rem;
+    outline: none;
+    padding: 0 2rem;
+  }
+
+  &:focus {
+    top: 0;
+    color: $primary-white;
+  }
+
+  &:hover {
+    color: $primary-white;
+  }
+}
